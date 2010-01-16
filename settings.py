@@ -1,4 +1,4 @@
-# Django settings for schoolwarehouse_org project.
+# Django settings for schoolwarehouse project.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -48,7 +48,7 @@ MEDIA_URL = ''
 ADMIN_MEDIA_PREFIX = '/media/'
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = '5bspav+4*!eo*-#bs0qn6hcvcvz$@2(dx0)378r3klb4p8#$@s'
+SECRET_KEY = '14pt2b(39az03$9$y)ac)xrenqmhy&uj$r2jm(vr67_peorvtk'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -63,7 +63,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
 )
 
-ROOT_URLCONF = 'schoolwarehouse_org.urls'
+ROOT_URLCONF = 'schoolwarehouse.urls'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
